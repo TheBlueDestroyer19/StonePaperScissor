@@ -5,7 +5,7 @@ maping={0:"Rock", 1:"Paper",2:"Sissor"}
 demaping={'r':0,'p':1,'s':2}
 
 username=input("What is your name?\n")
-print(f"\nHello {username}\nReady to play stone paper sissor with the computer?\n\nLessgo!!!!\n\n")
+print(f"\nHello {username}\nAre you ready to play????\n\nLessgo!!!!\n\n")
 
 # adding a comment here 1
 # adding a new comment
