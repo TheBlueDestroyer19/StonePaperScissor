@@ -1,4 +1,4 @@
-import random 
+import random
 
 moves={0:2,1:0,2:1}
 maping={0:"Rock", 1:"Paper",2:"Sissor"}
@@ -35,10 +35,21 @@ while i<=5:
     print(f"Your Score: {user_score}")
     print(f"Computer's Score: {comp_score}")
 
-print("\n\nFinal Score:")
-print(f"\n{username}'s Score: {user_score}")
-print(f"Computer's Score: {comp_score}")
 
-if user_score==comp_score: print("\nIt is a tie!")
-elif user_score>comp_score: print(f"Congrats {username}!!! You won!!!")
-else: print(f"Opps!! Computer Won!! Better luck next time!")
+width = 50  
+print("\n"+"="*width)
+print("Final Score".center(width))
+print("="*width)
+
+print(f"{username}'s Score:".ljust(width-len(str(user_score)))+f"{user_score}")
+print(f"Computer's Score:".ljust(width-len(str(comp_score)))+f"{comp_score}")
+
+print("="*width)
+
+if user_score==comp_score:
+    print("\nIt is a tie!")
+elif user_score>comp_score:
+    print(f"\nCongrats {username}!!! You won!!!")
+else:
+    print("\nOops!! Computer Won!! Better luck next time!")
+
