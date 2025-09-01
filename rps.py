@@ -7,9 +7,6 @@ demaping={'r':0,'p':1,'s':2}
 username=input("What is your name?\n")
 print(f"\nHello {username}\nAre you ready to play????\n\nLessgo!!!!\n\n")
 
-# adding a comment here 1
-# adding a new comment
-
 i,user_score,comp_score=1,0,0
 while i<=5:
     user_move=input("Enter your move out of rock (r), paper (p) and scissor (s)\n")
