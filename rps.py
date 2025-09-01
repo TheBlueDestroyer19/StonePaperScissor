@@ -32,6 +32,10 @@ while i<=5:
         print(f"You both chose {maping[comp_move]}! It is a match!\n")
     i+=1
 
+    print(f"Your Score: {user_score}")
+    print(f"Computer's Score: {comp_score}")
+
+print("\n\nFinal Score:")
 print(f"\n{username}'s Score: {user_score}")
 print(f"Computer's Score: {comp_score}")
 
