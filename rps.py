@@ -1,13 +1,17 @@
 import random
 
+#Defining movees and their associated numbers mapped
 moves={0:2,1:0,2:1}
 maping={0:"Rock", 1:"Paper",2:"Sissor"}
 demaping={'r':0,'p':1,'s':2}
 
+#Interactive for user 
 username=input("What is your name?\n")
 print(f"\nHello {username}\nAre you ready to play????\n\nLessgo!!!!\n\n")
 
 i,user_score,comp_score=1,0,0
+
+#Five rounds
 while i<=5:
     user_move=input("Enter your move out of rock (r), paper (p) and scissor (s)\n")
     while user_move not in ['r','p','s']:
@@ -32,7 +36,7 @@ while i<=5:
     print(f"Your Score: {user_score}")
     print(f"Computer's Score: {comp_score}")
 
-
+#Decoration
 width = 50  
 print("\n"+"="*width)
 print("Final Score".center(width))
