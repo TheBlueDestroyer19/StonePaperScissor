@@ -8,6 +8,7 @@ username=input("What is your name?\n")
 print(f"\nHello {username}\nReady to play stone paper sissor with the computer?\n\nLessgo!!!!\n\n")
 
 # adding a comment here 1
+# adding a new comment
 
 i,user_score,comp_score=1,0,0
 while i<=5:
