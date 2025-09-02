@@ -11,7 +11,8 @@ print(f"\nHello {username}\nAre you ready to play????\n\nLessgo!!!!\n\n")
 
 i,user_score,comp_score=1,0,0
 
-#Five rounds
+#Five rounds Computer vs User 
+# Begin
 while i<=5:
     user_move=input("Enter your move out of rock (r), paper (p) and scissor (s)\n")
     
