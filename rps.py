@@ -14,8 +14,9 @@ i,user_score,comp_score=1,0,0
 #Five rounds
 while i<=5:
     user_move=input("Enter your move out of rock (r), paper (p) and scissor (s)\n")
+    
     while user_move not in ['r','p','s']:
-        print("Please enter a valid move!\n")
+        print("The entered option is not valid among available!!\nPlease enter a valid move!")
         user_move=input("Enter your move out of rock (r), paper (p), sissor (s)\n")
 
     comp_move=random.randint(0,2)
