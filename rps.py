@@ -40,12 +40,15 @@ while i<=5:
 #Decoration
 width = 50  
 print("\n"+"="*width)
+#Final Score line in the center of decoration
 print("Final Score".center(width))
 print("="*width)
 
+#Adjust the user's name and computer to the left of the screen and other to the right end
 print(f"{username}'s Score:".ljust(width-len(str(user_score)))+f"{user_score}")
 print(f"Computer's Score:".ljust(width-len(str(comp_score)))+f"{comp_score}")
 
+#Print last decoration line
 print("="*width)
 
 if user_score==comp_score:
